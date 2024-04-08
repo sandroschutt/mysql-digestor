@@ -1,0 +1,49 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+body {
+  @include flex-col;
+  justify-content: space-between;
+  margin: 0;
+  height: 100vh;
+  background-color: $backgroundColor;
+
+  font-family: 'Courier New', Courier, monospace;
+
+  header {
+    @include global-padding-x-s;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $textColor;
+    color: $textContrastColor;
+
+    img {
+      margin: 10px;
+    }
+
+    nav {
+      a {
+        margin-left: 16px;
+        color: $textContrastColor;
+        text-decoration: none;
+      }
+    }
+  }
+
+  main {
+    @include flex-col;
+    margin: 0 auto;
+    text-align: center;
+
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
+  footer {
+    @include global-padding-x-s;
+    @include global-padding-y-s;
+    text-align: center;
+  }
+}

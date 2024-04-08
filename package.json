@@ -1,0 +1,25 @@
+{
+  "name": "mysql-digestor",
+  "version": "1.0.0",
+  "description": "Handles massive MySQL dumps.",
+  "main": "index.js",
+  "scripts": {
+    "build-styles": "sass -w src/assets/styles/style.scss src/assets/styles/build/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "htpps://github.com/mysql-digestor"
+  },
+  "keywords": [
+    "php",
+    "mysql",
+    "dump",
+    "slicer",
+    "importer"
+  ],
+  "author": "Sandro Schutt Jr",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.74.1"
+  }
+}
