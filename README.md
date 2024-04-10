@@ -33,12 +33,12 @@ May require increase of PHP memory limit variable.
 ##### To split a big dump in little dumplings:
 
 ```
-    ~$ php split_tables.php
+    ~$ php mysql-digestor-split.php
 ```
 ##### To upload all dumplings to your database:
 
 ```
-    ~$ php upload_tables.php
+    ~$ php mysql-digestor-upload.php
 ```
 
 
