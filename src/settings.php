@@ -6,7 +6,7 @@
 
 // UPLOADS
 // Set the path to your SQL files and the file prefix
-$projectName = "";
+$projectName = "project-name";
 $sqlFilesPath = realpath("../final/$projectName");
 $filePrefix = $projectName . "_table";
 
@@ -14,5 +14,6 @@ $filePrefix = $projectName . "_table";
 $startFileNumber = 0;
 
 // Usage
-$inputSqlFile = 'path/to/file';
+$inputSqlFile = '../dump/test.sql';
 $outputFilePrefix = $projectName . '_table';
+$filesToUpload = scandir("../final/project-name");
